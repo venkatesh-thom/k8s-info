@@ -94,6 +94,11 @@ eksctl version
 
 ## **1. Creating an EKS Cluster**  
 To create an EKS cluster with `eksctl`:  
+
+```bash
+Please note: As of Jan 2026, version 1.31 is outdated.. In youtube video series i have used version 1.31.. but you guys please check latest version in AWS and choose accordingly. you can use 1.34 / 35.. remaining everything is same
+ ```
+
 ```bash
 eksctl create cluster --name=ekswithavinash \
   --version 1.31 \
